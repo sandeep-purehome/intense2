@@ -1,0 +1,102 @@
+body{
+	font-family: 'Open Sans', sans-serif;	
+}
+h1{
+	font-weight: 300;
+}
+
+
+// Navbar
+.navbar-brand {
+  float: left;
+  padding: 10px;
+  padding-right: 40px;
+  font-size: @font-size-large;
+  line-height: @line-height-computed;
+  //height: @navbar-height;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  > img {
+    display: block;
+  }
+
+  @media (min-width: @grid-float-breakpoint) {
+    .navbar > .container &,
+    .navbar > .container-fluid & {
+      margin-left: -@navbar-padding-horizontal;
+    }
+  }
+}
+
+.navbar{
+	margin-bottom 	: 	0px;
+}
+
+.navbar li a{
+	font-weight 	: 700;
+	text-transform 	: uppercase;
+	font-size 		: 15px;
+	letter-spacing 	: 1px;
+}
+// Navbar Ends
+
+// Headings
+.headings-main{
+	text-align 		: center !important;
+	margin 			: 45px 0px;
+}
+
+.headings-main h1{
+	font-weight 	: 800;
+}
+
+// Headings Ends
+
+
+// Property Cards
+.card-property img{
+	width 			: 100% !important;
+}
+.card-property .title{
+	font-size 		: 22px;
+	color 			: #0D96BE;
+	font-weight 	: 700;
+}
+
+.card-property .price{
+	font-size 		: 18px;
+	color 			: #111;
+	font-weight 	: 700;
+}
+
+.card-property .specs{
+	font-size 		: 16px;
+	color 			: #888;
+	font-weight 	: 600;
+}
+
+.card-property .description{
+	line-height 	: 200%; 
+}
+// Property Cards Ends
+
+// Footer
+footer{
+	background-color: #000;
+}
+
+footer .contact{
+	height: 600px;
+	background-image: url("../images/carousel/abu-dhabi-slide-1.jpg");
+	opacity: 0.4;
+}
+
+footer .contact h1{
+	color: #fff;
+}
+
+// Footer Ends
