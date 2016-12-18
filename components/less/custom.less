@@ -1,10 +1,20 @@
 body{
 	font-family: 'Open Sans', sans-serif;	
+	padding-top 		: 	80px;
 }
+
 h1{
 	font-weight: 300;
 }
 
+p{
+	line-height 	: 	 150%;
+}
+
+.container-section{
+	margin-top 		: 40px;
+	margin-bottom 	: 40px;
+}
 
 // Navbar
 .navbar-brand {
@@ -41,20 +51,51 @@ h1{
 	text-transform 	: uppercase;
 	font-size 		: 15px;
 	letter-spacing 	: 1px;
+	font-family 	: 'Montserrat', sans-serif; 
 }
 // Navbar Ends
 
 // Headings
 .headings-main{
 	text-align 		: center !important;
-	margin 			: 45px 0px;
+	margin-top 		: 10px;
+	margin-bottom 	: 50px;
+	font-family 	: 'Montserrat', sans-serif; 
+	font-weight 	: 700;
+}
+
+.headings-sub{
+	text-align 		: center !important;
+	margin-top 		: 10px;
+	margin-bottom 	: 20px;
+	font-family 	: 'Montserrat', sans-serif;
+	font-weight 	: 400;
+	text-transform 	: uppercase; 
+	font-size 		: 25px;
 }
 
 .headings-main h1{
-	font-weight 	: 800;
+	font-family 	: 'Montserrat', sans-serif; 
+	font-weight 	: 700;
 }
 
 // Headings Ends
+
+// Contact Info Bar
+.contact-info-bar{
+	font-weight 	: 	600;
+	color 			: 	#999;
+	padding-top 	: 	8px;
+}
+.contact-info-bar .glyphicon{
+	padding-left 	: 	10px;
+	padding-right 	: 	12px;
+}
+
+.contact-item{
+	padding-left 	: 	15px;
+}
+// Contact Info Bar Ends
 
 
 // Property Cards
@@ -84,19 +125,133 @@ h1{
 }
 // Property Cards Ends
 
+
+
 // Footer
 footer{
-	background-color: #000;
+	background-color 	: 	#000;
+	color 				: 	#fff;
 }
 
-footer .contact{
+// Quick contact Form
+
+footer .quick-contact{
 	height: 600px;
 	background-image: url("../images/carousel/abu-dhabi-slide-1.jpg");
-	opacity: 0.4;
 }
 
-footer .contact h1{
+footer .quick-contact .form-control{
+	background-color 	: 	rgba(0,0,0,0.5);
+	color 				: 	#fff;
+	box-shadow 			: 	none; 
+	margin-top 			: 	15px;
+	margin-bottom 		: 	15px;
+	border 				: 	1px solid #222;
+	height 				: 	60px;
+}
+
+.quick-contact .form-control::-webkit-input-placeholder { color: white; }
+.quick-contact .form-control:-moz-placeholder { color: white; }
+.quick-contact .form-control::-moz-placeholder { color: white; }
+.quick-contact .form-control:-ms-input-placeholder { color: white; }
+// Quick contact Form Ends
+
+footer .quick-contact h1{
 	color: #fff;
 }
 
 // Footer Ends
+
+// Featured Locations
+.featured{
+	text-align 		: center;
+	position 		: relative;
+}
+
+.featured img{
+	border-radius 	: 15px; 
+}
+
+.featured h2{
+	margin-top 			: 0px;
+	position 			: absolute;
+	bottom 				: 0;
+	left 				: 0;
+	text-align 			: center;
+	padding 			: 5px;
+	font-weight 		: 400;
+	color 		 		: #fff;
+	background-color 	: #000; 
+	padding 	 		: 5px 10px;
+}
+// Featured Locations Ends
+
+// Social Icons
+
+footer .social-icon{
+	color: #fff;
+}
+
+.bg-facebook{
+	color: #263b91;
+}
+
+.bg-twitter{
+	color 	: #25a7df;
+}
+
+.bg-whatsapp{
+	color 	: #069e51;
+}
+
+.bg-youtube{
+	color 	: 	#b62127;
+}
+
+.bg-googleplus{
+	color 	: 	#d54231;
+}
+
+.bg-linkedin{
+	color 	: #1477aa;
+}
+
+.bg-instagram{
+	color 	: 	#4f2418;
+}
+// Social Icons Ends
+
+//Quick link 
+.quick-links{
+	list-style 			: none;
+}
+.quick-links li{
+	border-bottom 		: 1px dashed #444; 	
+	text-align 			: center;
+	padding 			: 5px 5px;
+}
+// Quick link ends
+
+// Carousel
+#carousel-main{
+	position 	: relative;
+}
+
+.carousel-jumbotron h1{
+	text-align 		: center;
+	text-shadow 	: 1px 1px 4px #000000;
+	font-size 		: 45px;
+}
+
+.carousel-jumbotron{
+	position 	: absolute;
+	top 		: 50%;
+ 	left 		: 50%;
+  	transform 	: translate(-50%, -50%);
+	z-index 	: 1; 
+	color 		: #eee;
+}
+
+
+
+// Carousel Ends
